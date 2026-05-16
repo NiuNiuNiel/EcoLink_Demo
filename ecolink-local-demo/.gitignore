@@ -1,0 +1,6 @@
+.env
+.env.local
+.server-port
+node_modules/
+data/runtime-state.json
+

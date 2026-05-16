@@ -1,0 +1,13 @@
+{
+  "name": "ecolink-local-demo",
+  "version": "0.1.0",
+  "private": true,
+  "description": "EcoLink AI local hackathon demo with seeded graph data and optional Gemini integration.",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
+

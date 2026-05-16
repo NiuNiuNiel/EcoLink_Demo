@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>EcoLink AI Local Demo</title>
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar">
+        <div class="brand">
+          <div class="brand-mark">EL</div>
+          <div>
+            <div class="brand-name">EcoLink AI</div>
+            <div class="brand-subtitle">Relationship intelligence</div>
+          </div>
+        </div>
+        <nav class="nav" aria-label="Primary navigation">
+          <button class="nav-item active" data-view="dashboard">Dashboard</button>
+          <button class="nav-item" data-view="intake">AI Intake</button>
+          <button class="nav-item" data-view="cohorts">Cohorts</button>
+          <button class="nav-item" data-view="match">Match</button>
+          <button class="nav-item" data-view="graph">Graph</button>
+          <button class="nav-item" data-view="relationships">Relationships</button>
+        </nav>
+        <div class="sidebar-footer">
+          <div class="status-dot" id="healthDot"></div>
+          <div>
+            <div class="small-label">Demo mode</div>
+            <div id="healthMode" class="muted">Checking</div>
+          </div>
+        </div>
+      </aside>
+
+      <main class="main">
+        <header class="topbar">
+          <div>
+            <h1 id="viewTitle">Dashboard</h1>
+            <p id="viewSubtitle">Reusable relationship memory for innovation ecosystems.</p>
+          </div>
+          <div class="topbar-actions">
+            <button class="secondary-button" id="resetDemoButton">Reset Demo</button>
+            <button class="primary-button" data-view-link="match">Run Match</button>
+          </div>
+        </header>
+
+        <section id="appView" class="view"></section>
+      </main>
+    </div>
+
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+    <script src="/app.js"></script>
+  </body>
+</html>
+
