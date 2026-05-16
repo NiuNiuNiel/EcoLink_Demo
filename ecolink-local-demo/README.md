@@ -15,7 +15,6 @@ Local hackathon demo for EcoLink AI, an AI-enabled relationship intelligence lay
 ## Run Locally
 
 ```powershell
-cd C:\Users\hokar\Desktop\MyHACK\ecolink-local-demo
 node server.js
 ```
 
